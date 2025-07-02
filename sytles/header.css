@@ -3,7 +3,7 @@
     height: 50px;
     display: flex;
     position: fixed;
-    background-color: rgb(190, 150, 150, 0.2);
+    background-color:  rgba(46, 34, 56, 0.8);
     color: white;
     z-index: 130;
 }
@@ -11,6 +11,10 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+}
+.header a{
+    text-decoration: none;
+    color: white;
 }
 
 .options{
