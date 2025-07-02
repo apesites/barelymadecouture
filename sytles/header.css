@@ -40,8 +40,9 @@
     align-items: center;
 }
 .checkout-button{
-    background-color: none;
+    background-color: transparent;
     color: white;
+    border: none;
     font-weight: bold;
 }
 
