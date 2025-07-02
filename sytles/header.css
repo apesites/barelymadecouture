@@ -36,8 +36,14 @@
     display: flex;
     margin: 0 auto;
     font-weight: bold;
+    jusify-content: center;
+    align-items: center;
 }
-
+.checkout-button{
+    background-color: none;
+    color: white;
+    font-weight: bold;
+}
 
 
 .option-svg-burger{
