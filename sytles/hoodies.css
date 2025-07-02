@@ -1,0 +1,120 @@
+.hoodies-sec{
+    width: 100%;
+    min-height: 120vh;
+    background: linear-gradient( #9b5b72, white, white, white);
+}
+.hoodies-inner{
+    width: 95%;
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.hoodies-header{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(240, 166, 178, 0.3);
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.display{
+    width: 90%;
+    min-height: 18rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    grid-gap: 1rem;
+    margin: 0 auto;
+}
+.first-disp{
+    background-color: antiquewhite;
+    height: 90%;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    overflow: hidden;
+}
+.second-disp{
+    height: 90%;
+    background-color: aliceblue;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    overflow: hidden;
+}
+.third-disp{
+    height: 90%;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.first-disp-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.second-hoodies-sec{
+
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color: aliceblue;
+    display: flex;
+
+}
+.third-hoodies-sec{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    grid-gap: 1rem;
+    margin: 0 auto;
+}
+.product{
+    background-color: aliceblue;
+}
+.product-img-con{
+    width: 70%;
+    height: 10rem;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.product-img{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+}
+.product-info{
+    width: 90%;
+    margin: 0 auto;
+}
+.p-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.p-price{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: red;
+}
+.add-to-cart{
+    width: 90%;
+    border: solid 3px lightgreen;
+    border-radius: 10px;
+    background-color: lightgreen;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
