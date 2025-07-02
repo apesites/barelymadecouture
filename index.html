@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="sytles/header.css">
     <link rel="stylesheet" href="sytles/hoodies.css">
     <link rel="stylesheet" href="sytles/footer.css">
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.css">
 
 </head>
 
@@ -77,9 +78,9 @@
 
                 <div class="cart">
                     <div>
-                        <p>
-                            CART
-                        </p>
+                        <button class="snipcart-checkout">
+                            CART(<span class="snipcart-items-count"></span>
+                        </button>
                     </div>
                 </div>
 
@@ -174,9 +175,16 @@
                             <p class="p-price">
                                 R350.00
                             </p>
-                            <p class="add-to-cart">
+                            <button class="snipcart-add-item"
+                                data-item-id="hoodie001"
+                                data-item-name="A Flight Home"
+                                data-item-price="349.99"
+                                data-item-url="https://apesites.github.io/barelymadecouture/"
+                                data-item-description="high quality hoodie"
+                                data-item-image="https://apesites.github.io/barelymadecouture/products/flight home.png"
+                                >
                                 add to cart            
-                            </p>
+                            </button>
 
                         </div>
 
@@ -490,6 +498,8 @@
    
 
     <script src="scripts/general.js"></script>
+    <script aync src="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.js"></script>
+    <div hidden id="snipcart" data-api-key="ZDZiNDcyOTEtOTc4Zi00ZGMxLTg4NTYtMDcyZWRiYTU0ZGQ5NjM4ODcwNDIxNDI1NTMyNjMy" data-config-mode="test"></div>
 
 </body>
 
